@@ -373,7 +373,7 @@
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "left",
+                    "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -540,21 +540,11 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "About 70 years\nago..."
+                                        "About 70 years\nago, the Treaty of\nTordesillas\nwas signed."
                                     ],
                                     "avatarId": ""
                                 },
                                 "id": "c8b1de3b-468d-4158-bb47-bc957da57dfd"
-                            },
-                            {
-                                "command": "EVENT_TEXT",
-                                "args": {
-                                    "text": [
-                                        "..The Treaty of\nTordesillas\nwas signed."
-                                    ],
-                                    "avatarId": ""
-                                },
-                                "id": "7ccfc788-723f-41b4-a058-5b59b6aa4b1a"
                             },
                             {
                                 "command": "EVENT_TEXT",
@@ -666,7 +656,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "..any undiscovered\nand non-Catholic\nland."
+                                        "..any undiscovered\nand non-Catholicland."
                                     ],
                                     "avatarId": ""
                                 },
@@ -775,17 +765,6 @@
                                     "avatarId": ""
                                 },
                                 "id": "d4e1cda5-5444-4177-95f8-357bf48b2af9"
-                            },
-                            {
-                                "command": "EVENT_SWITCH_SCENE",
-                                "args": {
-                                    "sceneId": "f9432a47-b829-4708-bce9-954940207ffe",
-                                    "x": 7,
-                                    "y": 10,
-                                    "direction": "",
-                                    "fadeSpeed": "2"
-                                },
-                                "id": "ef4a1bb2-c26d-4a5f-9c58-b24c8c6cab2b"
                             }
                         ],
                         "false": [

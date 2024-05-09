@@ -373,7 +373,7 @@
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-                    "direction": "down",
+                    "direction": "left",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -397,7 +397,7 @@
                 {
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "4ca09b50-e26e-47d0-8158-3223686f821d"
                     },
                     "id": "4e5120b0-5ce6-49a7-81bf-f2698f0afba3"
                 },
@@ -540,11 +540,21 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "About 70 years\nago, the Treaty of\nTordesillas\nwas signed."
+                                        "About 70 years\nago..."
                                     ],
                                     "avatarId": ""
                                 },
                                 "id": "c8b1de3b-468d-4158-bb47-bc957da57dfd"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "..The Treaty of\nTordesillas\nwas signed."
+                                    ],
+                                    "avatarId": ""
+                                },
+                                "id": "7ccfc788-723f-41b4-a058-5b59b6aa4b1a"
                             },
                             {
                                 "command": "EVENT_TEXT",
@@ -656,7 +666,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "..any undiscovered\nand non-Catholicland."
+                                        "..any undiscovered\nand non-Catholic\nland."
                                     ],
                                     "avatarId": ""
                                 },
@@ -765,6 +775,17 @@
                                     "avatarId": ""
                                 },
                                 "id": "d4e1cda5-5444-4177-95f8-357bf48b2af9"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "f9432a47-b829-4708-bce9-954940207ffe",
+                                    "x": 7,
+                                    "y": 10,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "ef4a1bb2-c26d-4a5f-9c58-b24c8c6cab2b"
                             }
                         ],
                         "false": [
@@ -792,12 +813,12 @@
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
                                     "sceneId": "2e631a15-6de0-4007-877a-be78585f56a3",
-                                    "x": 14,
-                                    "y": 14,
-                                    "direction": "up",
+                                    "x": 17,
+                                    "y": 2,
+                                    "direction": "",
                                     "fadeSpeed": "2"
                                 },
-                                "id": "c2f821d9-04b8-48c1-af20-716efbb1fa4e"
+                                "id": "2ca7d369-6398-4baf-aced-70503179ae67"
                             }
                         ]
                     },
@@ -807,6 +828,715 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Level1 Scene",
+            "backgroundId": "edbc0aa3-4dfb-4bba-bc94-f52f4f14a4ae",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "3ba97739-879d-49cb-bf21-49b0ce32f1c9",
+            "symbol": "scene_3",
+            "x": 103,
+            "y": 310,
+            "actors": [
+                {
+                    "name": "Ishido",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_10",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ba02b2a4-2338-4b04-9d74-4503ee1eddbb",
+                    "x": 9,
+                    "y": 4
+                },
+                {
+                    "name": "Tadayoshi",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_11",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "730e65c0-5ed0-498b-bf81-c18ae7044e47",
+                    "x": 4,
+                    "y": 16
+                },
+                {
+                    "name": "Samurai1",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_12",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "82557d5e-2e63-4058-8258-0b2d5e16347b",
+                    "x": 15,
+                    "y": 16
+                }
+            ],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_MOVE_TO",
+                    "args": {
+                        "actorId": "$self$",
+                        "x": {
+                            "type": "number",
+                            "value": 9
+                        },
+                        "y": {
+                            "type": "number",
+                            "value": 12
+                        },
+                        "moveType": "horizontal",
+                        "useCollisions": false,
+                        "__collapse": true
+                    },
+                    "id": "529c5de4-300c-4725-bce0-7b999985c21e"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Welcome to Osaka.\n",
+                            "The council of \nregents \napreciates \nyou coming."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "d08c318a-c613-4729-8568-86fedde91cac"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 1,
+                        "frames": 30,
+                        "__collapse": true
+                    },
+                    "id": "463d95af-65d5-4f4d-b856-52e6e80109d1"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Toranaga: \nThis seat \narragement is new."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "fce482a0-7227-458b-a1cd-fc2b91db52eb"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Kiyama:\nWe thought it was\napproopriate under",
+                            "the circumstances."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "684351b7-194c-407a-9b26-7f35de422ebf"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Ishido:\nToranaga,in the \nyear since Taiko's ",
+                            "death we watched \nwith \nconcern as ",
+                            "you've aligned \npower against \nthe counsil. ",
+                            "Wich the late \nTaiko had good \nreason to forbid."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "e5d12a05-a296-42cd-9c3d-57a3019835b7"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Toranaga:\nWhat power have i \naligned?"
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "9f69839e-c973-448b-a829-406655e23c3c"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Ishido:\nSix marriages\nyou've consented \nto,",
+                            "and your \nfief has doubled \nin size."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "9222c758-d4d3-4a0a-a0f7-de162d651ec7"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Toranaga:\nIf my fellow \nregents are ",
+                            "concerned let me \nsay i am content \nas Lord of the ",
+                            "Kanto, i will\nbe the first \nto break ",
+                            "any piece."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "e2490280-79de-4254-9bbe-0c291f0a0524"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Ishido:\nHow strange! \nJust this morning ",
+                            "the Heir's mother \nwas taken to your \ncastle at Edo. ",
+                            "No warning, \nno request."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "be53eec9-f1fc-4e34-acfa-ad32932f4a83"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Toranaga: \nLady Ochiba's \nsister, my ",
+                            "daughter in law, \nis in labor."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "5bfaccfe-c1c8-4ff6-8e8f-c23ab2acd63b"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Ishido:\nOr lady Ochiba has \nbeen taken hostage ",
+                            "to garantee your \nsafety here?"
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "a3ffec15-352c-46f0-80f7-dd3a5152796a"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Toranaga:\nThis is a time of \npeace, Lord Ishido.",
+                            "The lady is no \nmore hostage in my \ncastle than i am ",
+                            "here, in this one."
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "f551e39c-2ad3-438e-891f-d00317559360"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Ishido: \nWhat would Taiko \nsay if he was with",
+                            "us now?"
+                        ],
+                        "avatarId": "",
+                        "__collapse": true
+                    },
+                    "id": "578a2f46-01b2-4844-aded-efa8682d4eb5"
+                },
+                {
+                    "command": "EVENT_MENU",
+                    "args": {
+                        "variable": "2",
+                        "items": 2,
+                        "option1": "Say Nothing",
+                        "option2": "Joke",
+                        "option3": "",
+                        "option4": "",
+                        "option5": "",
+                        "option6": "",
+                        "option7": "",
+                        "option8": "",
+                        "cancelOnB": true,
+                        "layout": "dialogue",
+                        "__collapse": true
+                    },
+                    "id": "70dda026-b7b8-435a-9fcd-36756160a43a"
+                },
+                {
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "2",
+                        "operator": "==",
+                        "comparator": 1,
+                        "__collapseElse": false,
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "..."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "9cfc1b37-975e-499c-b006-96fc28dcd978"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "f9432a47-b829-4708-bce9-954940207ffe",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2",
+                                    "__collapse": true
+                                },
+                                "id": "e418c187-7692-4ac2-94de-27f096bc100f"
+                            }
+                        ],
+                        "false": [
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "I think he'd be \npleased knowing\nthe five of us ",
+                                        "still can't agree."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "46b7e3ef-de9c-47e1-a323-bb6e1038a19d"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Ishido:\nHis Dying wish was\nfor a peaceful ",
+                                        "sharing of power"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "bf92bd91-abd6-401a-911c-00df85ea7af9"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Toranaga:\nYes! Until his \nHeir comes of age,",
+                                        "and i look foward \nto that day.",
+                                        "These meetings are\nexhausting."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "deb41740-f00d-4386-ada5-4358c9194efe"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Ishido:\nLet me put it \ndifferently. ",
+                                        "The council has \nvoted to demand \nthe lady's return ",
+                                        "under penalty of \nimpeachment.",
+                                        "The time has come \nto expose those \ntraitors who wish",
+                                        "to usurp the Heir's power."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "c6c2af5a-e8ef-4b9b-ab15-f8e156718b64"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_EMOTE",
+                                "args": {
+                                    "actorId": "730e65c0-5ed0-498b-bf81-c18ae7044e47",
+                                    "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+                                    "__collapse": true
+                                },
+                                "id": "14c6be8f-ba18-43e9-9653-6806d68dbe62"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Ishido:\nLow born, high \nborn, even a",
+                                        "Minowara like \nyourself."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "971fad43-45f9-4fac-aead-d61fc96a2285"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "82557d5e-2e63-4058-8258-0b2d5e16347b",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 11
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 12
+                                    },
+                                    "moveType": "horizontal",
+                                    "useCollisions": false,
+                                    "__collapse": true
+                                },
+                                "id": "b64e13d6-464e-4d08-9364-e7cfb9100911"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Ishido:\nYou'll see four \nsignatures.",
+                                        "Lords Kiyama, \nSugiyama, Ohno and\nmine."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "6f87d23e-1d8c-4b60-acca-5d0fb55e307c"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "730e65c0-5ed0-498b-bf81-c18ae7044e47",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 4
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 14
+                                    },
+                                    "moveType": "horizontal",
+                                    "useCollisions": false,
+                                    "__collapse": true
+                                },
+                                "id": "85eb32f3-4b5e-4fdf-9ae3-3b4d426ac922"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Tadayoshi:\nPardon! Hasn't my \nlord done ",
+                                        "everything \naccording to law?!\nTo call him a ",
+                                        "traitor on such \nflimsy accusation \nis..."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "f647209b-c7e1-4aa9-af59-328604ba4ed3"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Toranaga:\nTadayoshi sit \ndown!"
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "b0dff044-b2df-469d-9fbf-5d4c03ca8b79"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "730e65c0-5ed0-498b-bf81-c18ae7044e47",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 4
+                                    },
+                                    "y": {
+                                        "type": "number",
+                                        "value": 16
+                                    },
+                                    "moveType": "horizontal",
+                                    "useCollisions": false,
+                                    "__collapse": true
+                                },
+                                "id": "9f2f70c6-5f50-49b4-9b8f-e60831c0ace5"
+                            },
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "3",
+                                    "items": 2,
+                                    "option1": "Apologize",
+                                    "option2": "Justify",
+                                    "option3": "",
+                                    "option4": "",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "dialogue",
+                                    "__collapse": true
+                                },
+                                "id": "65e93285-bcfc-4f5a-9fb3-9bc8bb40b08f"
+                            },
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "3",
+                                    "operator": "==",
+                                    "comparator": 1,
+                                    "__collapseElse": true,
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Tadayoshi:\nI'm so sorry. \nI could not bear ",
+                                                    "you hearing such \ninsults."
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": true
+                                            },
+                                            "id": "b2b4bc57-f2b0-4b6f-9fd5-a119002e8ee7"
+                                        },
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Toranaga:\nHow dare you imply\nthat Lord Ishido",
+                                                    "insulted me?"
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": true
+                                            },
+                                            "id": "b00ed25e-15dc-43c4-9afe-ecb45bf8d744"
+                                        },
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Tadayoshi:\nI ask permission \nto commit seppuku,",
+                                                    "i will end my \nfamily line and \nall who carry",
+                                                    "my name."
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": true
+                                            },
+                                            "id": "6a982436-4de6-4afa-82dd-cae78c42f153"
+                                        },
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Toranaga:\nMy host, please \naccept my apology."
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": true
+                                            },
+                                            "id": "3dafa26b-2189-480f-96b7-5b3ef5e15de5"
+                                        },
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Ishido:\nWhats's done is \ndone.",
+                                                    "Though i must say,\nthis childish \noutburst is",
+                                                    "typical of your \nclan, and an \ninsult to Taiko's ",
+                                                    "proud legacy.\nYou have seven \ndays to release ",
+                                                    "the Heir's mother \nfrom Edo,and then,\nwe will vote on",
+                                                    "your fate."
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": true
+                                            },
+                                            "id": "02ac4460-5ccb-431c-91c0-e711329e0c08"
+                                        },
+                                        {
+                                            "command": "EVENT_MENU",
+                                            "args": {
+                                                "variable": "4",
+                                                "items": 2,
+                                                "option1": "Say Nothing",
+                                                "option2": "Respond",
+                                                "option3": "",
+                                                "option4": "",
+                                                "option5": "",
+                                                "option6": "",
+                                                "option7": "",
+                                                "option8": "",
+                                                "cancelOnB": true,
+                                                "layout": "dialogue",
+                                                "__collapse": true
+                                            },
+                                            "id": "3041e590-519b-452c-a4bd-17ad6e0985ef"
+                                        },
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "4",
+                                                "operator": "==",
+                                                "comparator": 1,
+                                                "__collapseElse": true,
+                                                "__collapse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_TEXT",
+                                                        "args": {
+                                                            "text": [
+                                                                "..."
+                                                            ],
+                                                            "avatarId": ""
+                                                        },
+                                                        "id": "4d839087-b7e8-4fe9-b110-92fd43cc9e99"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_SWITCH_SCENE",
+                                                        "args": {
+                                                            "sceneId": "f9432a47-b829-4708-bce9-954940207ffe",
+                                                            "x": 0,
+                                                            "y": 0,
+                                                            "direction": "",
+                                                            "fadeSpeed": "2"
+                                                        },
+                                                        "id": "61e4e647-c6d8-4aea-a5b0-8b21e00c8fd8"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "ffe63ffc-ab09-4f00-b9fb-40fd0030ceb6"
+                                        },
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "Toranaga:\nLord Ishido, \nI understand ",
+                                                    "the gravity of \nyour words. \nHowever, I cannot ",
+                                                    "comply with such \ndemands without \ncompromising the ",
+                                                    "safety and\nwell-being of my \nfamily."
+                                                ],
+                                                "avatarId": "",
+                                                "__collapse": true
+                                            },
+                                            "id": "187dc18d-a51d-4e94-a795-1b76c32780db"
+                                        },
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "f9432a47-b829-4708-bce9-954940207ffe",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2",
+                                                "__collapse": true
+                                            },
+                                            "id": "06a21ea1-b634-4310-83c8-d393e9c9c73e"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "b89bc7ad-29e2-48ab-a47f-4cc3a800dba2"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Tadayoshi:\nMy lord, forgive my \nimpertinence,",
+                                        "but I cannot sit\nquiet while \nyour honor is ",
+                                        "questioned."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "864a7558-6060-47c3-9a6b-29e16b9532fb"
+                            },
+                            {
+                                "command": "EVENT_TEXT",
+                                "args": {
+                                    "text": [
+                                        "Toranaga:\nNow is not the \ntime for rash ",
+                                        "actions. Let us \nhandle this with \nthe dignity and ",
+                                        "wisdom befitting \nour station."
+                                    ],
+                                    "avatarId": "",
+                                    "__collapse": true
+                                },
+                                "id": "fe5ff456-4ebb-4158-82d6-5436662494ec"
+                            },
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "f9432a47-b829-4708-bce9-954940207ffe",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2",
+                                    "__collapse": true
+                                },
+                                "id": "71dbdbe4-4375-40bd-afe5-d626a11e793c"
+                            }
+                        ]
+                    },
+                    "id": "19ba5fe6-012c-4017-a416-0fe0ee345f26"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         }
     ],
     "backgrounds": [
@@ -2039,6 +2769,23 @@
                     "id": "0d5a4ad0-d973-499b-92ec-6921cdf618a3"
                 }
             ]
+        },
+        {
+            "id": "97aff9e2-c36f-4bbf-8e5b-da3ed3eb7fa7",
+            "name": "Adding to Chat",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_3",
+            "script": [
+                {
+                    "command": "EVENT_INC_VALUE",
+                    "args": {
+                        "variable": "1"
+                    },
+                    "id": "be1105e5-3f81-45ec-8cd4-403d96c05203"
+                }
+            ]
         }
     ],
     "music": [
@@ -2142,6 +2889,26 @@
             "id": "0",
             "name": "SequenceWinChecker",
             "symbol": "var_sequencewinchecker"
+        },
+        {
+            "id": "1",
+            "name": "Chat",
+            "symbol": "var_chat"
+        },
+        {
+            "id": "2",
+            "name": "Choice 1",
+            "symbol": "var_choice_1"
+        },
+        {
+            "id": "3",
+            "name": "Choice 2",
+            "symbol": "var_choice_2"
+        },
+        {
+            "id": "4",
+            "name": "Choice 3",
+            "symbol": "var_choice_3"
         }
     ],
     "engineFieldValues": [
@@ -2151,9 +2918,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "f9432a47-b829-4708-bce9-954940207ffe",
-        "startX": 16,
-        "startY": 0,
+        "startSceneId": "3ba97739-879d-49cb-bf21-49b0ce32f1c9",
+        "startX": 9,
+        "startY": 16,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
@@ -2161,9 +2928,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 2,
+        "worldScrollY": 302,
+        "zoom": 275,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -2191,9 +2958,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            397,
-            120,
-            120
+            592,
+            178,
+            178
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",

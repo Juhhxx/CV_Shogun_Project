@@ -2769,23 +2769,6 @@
                     "id": "0d5a4ad0-d973-499b-92ec-6921cdf618a3"
                 }
             ]
-        },
-        {
-            "id": "97aff9e2-c36f-4bbf-8e5b-da3ed3eb7fa7",
-            "name": "Adding to Chat",
-            "description": "",
-            "variables": {},
-            "actors": {},
-            "symbol": "script_3",
-            "script": [
-                {
-                    "command": "EVENT_INC_VALUE",
-                    "args": {
-                        "variable": "1"
-                    },
-                    "id": "be1105e5-3f81-45ec-8cd4-403d96c05203"
-                }
-            ]
         }
     ],
     "music": [

@@ -325,7 +325,7 @@
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [
-                "dmg",
+                "193d4bad-36b7-4944-ba72-49018609d0b6",
                 "dmg"
             ],
             "spritePaletteIds": [
@@ -8001,8 +8001,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 415.3333435058594,
-        "worldScrollY": 584,
+        "worldScrollX": 115.33333587646484,
+        "worldScrollY": 691.3333129882812,
         "zoom": 200,
         "customColorsEnabled": true,
         "sgbEnabled": false,

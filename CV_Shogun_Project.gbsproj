@@ -884,12 +884,19 @@
         },
         {
             "name": "Level1 Scene",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "backgroundId": "e57a27fb-9389-42c1-85d3-a2c2aa640cbe",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
             "paletteIds": [
-                "dmg"
+                "193d4bad-36b7-4944-ba72-49018609d0b6",
+                "dmg",
+                "default-bg-3",
+                "default-bg-4",
+                "default-bg-5",
+                "default-bg-6",
+                "dmg",
+                "default-ui"
             ],
             "spritePaletteIds": [
                 "dmg",
@@ -899,7 +906,7 @@
             "autoFadeSpeed": 1,
             "id": "3ba97739-879d-49cb-bf21-49b0ce32f1c9",
             "symbol": "scene_3",
-            "x": 100.59999999999998,
+            "x": 105.40000000000005,
             "y": 565.7999999999998,
             "actors": [
                 {
@@ -923,7 +930,7 @@
                     "hit3Script": [],
                     "id": "ba02b2a4-2338-4b04-9d74-4503ee1eddbb",
                     "x": 9,
-                    "y": 4
+                    "y": 6
                 },
                 {
                     "name": "Tadayoshi",
@@ -984,7 +991,7 @@
                         },
                         "y": {
                             "type": "number",
-                            "value": 12
+                            "value": 10
                         },
                         "moveType": "horizontal",
                         "useCollisions": false,
@@ -1743,7 +1750,9 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "autoFadeEventCollapse": true
+            "autoFadeEventCollapse": true,
+            "playerSpriteSheetId": "220fb514-7409-4ae5-a430-0a77ef045982",
+            "labelColor": ""
         },
         {
             "name": "Level 3 Scene 1",
@@ -5823,6 +5832,16 @@
             "tileColors": []
         },
         {
+            "id": "e57a27fb-9389-42c1-85d3-a2c2aa640cbe",
+            "name": "Council_room",
+            "symbol": "bg_council_room",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Council_room.png"
+        },
+        {
             "id": "5c649a73-47dc-4f77-bab2-93630c3b097d",
             "name": "Map_Scene_Background.png",
             "symbol": "bg_map_scene_background_png",
@@ -6213,7 +6232,8 @@
             "height": 144,
             "imageWidth": 1280,
             "imageHeight": 1152,
-            "filename": "Title_screen.png"
+            "filename": "Title_screen.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -11790,9 +11810,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 277,
-        "worldScrollY": 1400,
-        "zoom": 300,
+        "worldScrollX": 2,
+        "worldScrollY": 1100,
+        "zoom": 250,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

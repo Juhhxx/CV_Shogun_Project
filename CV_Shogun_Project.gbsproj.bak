@@ -27,8 +27,8 @@
             "autoFadeSpeed": 1,
             "id": "2e631a15-6de0-4007-877a-be78585f56a3",
             "symbol": "scene_1",
-            "x": 311.99999999999955,
-            "y": 376.00000000000097,
+            "x": 428.99999999999955,
+            "y": 335.00000000000097,
             "actors": [
                 {
                     "name": "WinChecker",
@@ -6421,6 +6421,73 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Logo",
+            "backgroundId": "afd017aa-00f1-4753-a58b-1b961d545526",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "ad6e7dac-84b9-4f8c-9d93-5c34ee2f9262",
+            "symbol": "scene_12",
+            "x": 772.6666717529297,
+            "y": 34,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_DEACTIVATE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "e09e136b-7bd4-427c-9ddc-ddc69a98d567"
+                },
+                {
+                    "command": "EVENT_OVERLAY_SHOW",
+                    "args": {
+                        "color": "black",
+                        "x": 0,
+                        "y": 0
+                    },
+                    "id": "e8628aa3-9702-4180-a20c-ad774dfe7dc1"
+                },
+                {
+                    "command": "EVENT_OVERLAY_MOVE_TO",
+                    "args": {
+                        "x": 0,
+                        "y": 18,
+                        "speed": 2
+                    },
+                    "id": "6b0fae01-09f0-4690-bc57-8047037d2702"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2,
+                        "frames": 30
+                    },
+                    "id": "67015453-2556-4362-be61-5cbb91f8f2ab"
+                },
+                {
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "dc21844b-db79-416e-af13-31ae5b4e36c0",
+                        "x": 0,
+                        "y": 0,
+                        "direction": "",
+                        "fadeSpeed": "2"
+                    },
+                    "id": "1fe7a488-d0c7-4e0c-93bd-3cc3cda1ff8a"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -6509,6 +6576,16 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Game_Over.png"
+        },
+        {
+            "id": "afd017aa-00f1-4753-a58b-1b961d545526",
+            "name": "Logo",
+            "symbol": "bg_logo",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Logo.png"
         },
         {
             "id": "5c649a73-47dc-4f77-bab2-93630c3b097d",
@@ -12783,9 +12860,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "dc21844b-db79-416e-af13-31ae5b4e36c0",
-        "startX": 3,
-        "startY": 15,
+        "startSceneId": "ad6e7dac-84b9-4f8c-9d93-5c34ee2f9262",
+        "startX": 0,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "up",
@@ -12793,8 +12870,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 162.6666717529297,
-        "worldScrollY": 6.666666507720947,
+        "worldScrollX": 202,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,

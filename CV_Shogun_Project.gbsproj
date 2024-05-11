@@ -27,8 +27,8 @@
             "autoFadeSpeed": 1,
             "id": "2e631a15-6de0-4007-877a-be78585f56a3",
             "symbol": "scene_1",
-            "x": 311.99999999999955,
-            "y": 376.00000000000097,
+            "x": 428.99999999999955,
+            "y": 335.00000000000097,
             "actors": [
                 {
                     "name": "WinChecker",
@@ -926,29 +926,6 @@
             "x": 105.40000000000005,
             "y": 565.7999999999998,
             "actors": [
-                {
-                    "name": "Ishido",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "cc798b98-2226-46b3-8939-715ca405acb3",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_10",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "ba02b2a4-2338-4b04-9d74-4503ee1eddbb",
-                    "x": 9,
-                    "y": 6
-                },
                 {
                     "name": "Tadayoshi",
                     "frame": 0,
@@ -6565,7 +6542,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "EndScreen.png"
+            "filename": "EndScreen.png",
+            "tileColors": []
         },
         {
             "id": "1aa88b11-fac1-4424-80fb-cc1091ab6baa",
@@ -6575,7 +6553,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Game_Over.png"
+            "filename": "Game_Over.png",
+            "tileColors": []
         },
         {
             "id": "afd017aa-00f1-4753-a58b-1b961d545526",
@@ -6585,7 +6564,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Logo.png"
+            "filename": "Logo.png",
+            "tileColors": []
         },
         {
             "id": "5c649a73-47dc-4f77-bab2-93630c3b097d",
@@ -6978,7 +6958,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Pausa.png"
+            "filename": "Pausa.png",
+            "tileColors": []
         },
         {
             "id": "7a1a0c39-5353-4269-a526-5af64268dd50",
@@ -12833,11 +12814,6 @@
             "symbol": "var_choice_0"
         },
         {
-            "id": "4c99edd4-fded-4ff0-9e95-6c133dbc6c32__L0",
-            "name": "imdead",
-            "symbol": "var_imdead"
-        },
-        {
             "id": "15",
             "name": "MenuItem",
             "symbol": "var_menuitem"
@@ -12851,6 +12827,11 @@
             "id": "17",
             "name": "gameOverMenu",
             "symbol": "var_gameovermenu"
+        },
+        {
+            "id": "4c99edd4-fded-4ff0-9e95-6c133dbc6c32__L0",
+            "name": "imdead",
+            "symbol": "var_imdead"
         }
     ],
     "engineFieldValues": [
@@ -12870,8 +12851,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 202,
-        "worldScrollY": 0,
+        "worldScrollX": 0,
+        "worldScrollY": 186.6666717529297,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,

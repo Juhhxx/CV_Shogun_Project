@@ -1037,10 +1037,10 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "...you died..."
+                                        "...You died..."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "f9086a59-8f75-4f72-90f7-34e042a5c8a7"
                             },
@@ -1709,10 +1709,10 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Ishido:\nToranaga,in the \nyear since the",
+                            "Ishido:\nToranaga, in the \nyear since",
                             "Taiko's death we\nwatched with \nconcern as ",
                             "you've aligned \npower against \nthe counsil. ",
-                            "Wich the late \nTaiko had good \nreason to forbid."
+                            "Which the late \nTaiko had good \nreason to forbid."
                         ],
                         "avatarId": "",
                         "__collapse": true
@@ -1732,7 +1732,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Toranaga: What\npower have i \naligned?"
+                            "Toranaga: What\npower have I\naligned?"
                         ],
                         "avatarId": "",
                         "__collapse": true
@@ -1786,8 +1786,8 @@
                                 "args": {
                                     "text": [
                                         "Toranaga:\nIf my fellow \nregents are ",
-                                        "concerned let me \nsay i am content \nas Lord of the ",
-                                        "Kanto, i won't\nbe the first to\nbreak the peace."
+                                        "concerned, let me \nsay i am content \nas Lord of the ",
+                                        "Kantō. I won't\nbe the first to\nbreak the peace."
                                     ],
                                     "avatarId": "",
                                     "__collapse": false
@@ -1803,7 +1803,7 @@
                                         "No warning, \nno request."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "be53eec9-f1fc-4e34-acfa-ad32932f4a83"
                             },
@@ -1815,7 +1815,7 @@
                                         "daughter in law, \nis in labor."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "5bfaccfe-c1c8-4ff6-8e8f-c23ab2acd63b"
                             },
@@ -1824,10 +1824,10 @@
                                 "args": {
                                     "text": [
                                         "Ishido:\nOr lady Ochiba has\nbeen taken hostage",
-                                        "to garantee your \nsafety here?"
+                                        "to guarantee your \nsafety here?"
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "a3ffec15-352c-46f0-80f7-dd3a5152796a"
                             },
@@ -1840,7 +1840,7 @@
                                         "here, in this one."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "f551e39c-2ad3-438e-891f-d00317559360"
                             },
@@ -1851,7 +1851,7 @@
                                         "Ishido: What would\nTaiko say if he\nwas with us now?"
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "578a2f46-01b2-4844-aded-efa8682d4eb5"
                             },
@@ -1870,7 +1870,7 @@
                                     "option8": "",
                                     "cancelOnB": true,
                                     "layout": "dialogue",
-                                    "__collapse": false
+                                    "__collapse": true
                                 },
                                 "id": "70dda026-b7b8-435a-9fcd-36756160a43a"
                             },
@@ -1904,7 +1904,7 @@
                                                     "these false \naccusations \nagainst my master!"
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "5a5996b3-1b78-4ddd-9661-5f33f57d086d"
                                         },
@@ -1954,7 +1954,7 @@
                                                     "the five of us\nstill can't agree."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "46b7e3ef-de9c-47e1-a323-bb6e1038a19d"
                                         },
@@ -1962,11 +1962,11 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Ishido: His Dying\nwish was for a\npeaceful ",
+                                                    "Ishido: His dying\nwish was for a\npeaceful ",
                                                     "sharing of power"
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "bf92bd91-abd6-401a-911c-00df85ea7af9"
                                         },
@@ -1975,11 +1975,11 @@
                                             "args": {
                                                 "text": [
                                                     "Toranaga:\nYes! Until his \nHeir comes of age,",
-                                                    "and i look foward \nto that day.",
+                                                    "and I look foward \nto that day.",
                                                     "These meetings are\nexhausting."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "deb41740-f00d-4386-ada5-4358c9194efe"
                                         },
@@ -1994,7 +1994,7 @@
                                                     "to usurp the\nHeir's power."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "c6c2af5a-e8ef-4b9b-ab15-f8e156718b64"
                                         },
@@ -2015,7 +2015,7 @@
                                                     "Minowara like \nyourself."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "971fad43-45f9-4fac-aead-d61fc96a2285"
                                         },
@@ -2045,7 +2045,7 @@
                                                     "Lords Kiyama, \nSugiyama, Ohno and\nmine."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "6f87d23e-1d8c-4b60-acca-5d0fb55e307c"
                                         },
@@ -2070,7 +2070,7 @@
                                                     "traitor on such \nflimsy accusation \nis..."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "f647209b-c7e1-4aa9-af59-328604ba4ed3"
                                         },
@@ -2081,7 +2081,7 @@
                                                     "Toranaga:\nTadayoshi sit \ndown!"
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "b0dff044-b2df-469d-9fbf-5d4c03ca8b79"
                                         },
@@ -2124,7 +2124,7 @@
                                                 "option8": "",
                                                 "cancelOnB": true,
                                                 "layout": "dialogue",
-                                                "__collapse": false
+                                                "__collapse": true
                                             },
                                             "id": "65e93285-bcfc-4f5a-9fb3-9bc8bb40b08f"
                                         },
@@ -2147,7 +2147,7 @@
                                                                 "you hearing such \ninsults."
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "b2b4bc57-f2b0-4b6f-9fd5-a119002e8ee7"
                                                     },
@@ -2168,7 +2168,7 @@
                                                         "args": {
                                                             "text": [
                                                                 "Tadayoshi:\nI ask permission \nto commit seppuku,",
-                                                                "i will end my \nfamily line and \nall who carry",
+                                                                "I will end my \nfamily line and \nall who carry",
                                                                 "my name."
                                                             ],
                                                             "avatarId": "",
@@ -2192,14 +2192,14 @@
                                                         "args": {
                                                             "text": [
                                                                 "Ishido:\nWhats's done is \ndone.",
-                                                                "Though i must say,\nthis childish \noutburst is",
+                                                                "Though I must say,\nthis childish \noutburst is",
                                                                 "typical of your \nclan, and an \ninsult to Taiko's ",
                                                                 "proud legacy.\nYou have seven \ndays to release ",
-                                                                "the Heir's mother \nfrom Edo,and then,\nwe will vote on",
+                                                                "the Heir's mother \nfrom Edo,and then\nwe will vote on",
                                                                 "your fate."
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "02ac4460-5ccb-431c-91c0-e711329e0c08"
                                                     },
@@ -2264,7 +2264,7 @@
                                                                             "these false \naccusations \nagainst my master!"
                                                                         ],
                                                                         "avatarId": "",
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "id": "ac3054c3-12cc-4faf-b0aa-489b36de9688"
                                                                 },
@@ -2276,7 +2276,7 @@
                                                                             "from you and your \nwarriors,kill him \nand his warriors!!"
                                                                         ],
                                                                         "avatarId": "",
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "id": "a64175f0-b9db-4ee3-8032-7f35b6eb3b54"
                                                                 },
@@ -2287,7 +2287,7 @@
                                                                             "...You died..."
                                                                         ],
                                                                         "avatarId": "",
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "id": "bcf88b2e-ab66-4448-b4c3-1da5005f84e0"
                                                                 },
@@ -2340,7 +2340,7 @@
                                                                 "...You died..."
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "6d041409-9aab-435d-adb1-468d33b79625"
                                                     },
@@ -6443,7 +6443,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "So u were the one\nkilling people"
+                                    "Toronaga:\nSo you were the\none killing people"
                                 ],
                                 "avatarId": ""
                             },
@@ -16022,8 +16022,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 216,
-        "worldScrollY": 0,
+        "worldScrollX": 0,
+        "worldScrollY": 140.6666717529297,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,

@@ -1037,10 +1037,10 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "...you died..."
+                                        "...You died..."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "f9086a59-8f75-4f72-90f7-34e042a5c8a7"
                             },
@@ -1557,29 +1557,6 @@
             "y": 565.7999999999998,
             "actors": [
                 {
-                    "name": "Ishido",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "014070bc-a4bd-4dba-9049-30615370dfc7",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_10",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "ba02b2a4-2338-4b04-9d74-4503ee1eddbb",
-                    "x": 9,
-                    "y": 6
-                },
-                {
                     "name": "Tadayoshi",
                     "frame": 0,
                     "animate": false,
@@ -1803,7 +1780,7 @@
                                         "No warning, \nno request."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "be53eec9-f1fc-4e34-acfa-ad32932f4a83"
                             },
@@ -1815,7 +1792,7 @@
                                         "daughter in law, \nis in labor."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "5bfaccfe-c1c8-4ff6-8e8f-c23ab2acd63b"
                             },
@@ -1827,7 +1804,7 @@
                                         "to guarantee your \nsafety here?"
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "a3ffec15-352c-46f0-80f7-dd3a5152796a"
                             },
@@ -1840,7 +1817,7 @@
                                         "here, in this one."
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "f551e39c-2ad3-438e-891f-d00317559360"
                             },
@@ -1851,7 +1828,7 @@
                                         "Ishido: What would\nTaiko say if he\nwas with us now?"
                                     ],
                                     "avatarId": "",
-                                    "__collapse": true
+                                    "__collapse": false
                                 },
                                 "id": "578a2f46-01b2-4844-aded-efa8682d4eb5"
                             },
@@ -1904,7 +1881,7 @@
                                                     "these false \naccusations \nagainst my master!"
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "5a5996b3-1b78-4ddd-9661-5f33f57d086d"
                                         },
@@ -1954,7 +1931,7 @@
                                                     "the five of us\nstill can't agree."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "46b7e3ef-de9c-47e1-a323-bb6e1038a19d"
                                         },
@@ -1975,11 +1952,11 @@
                                             "args": {
                                                 "text": [
                                                     "Toranaga:\nYes! Until his \nHeir comes of age,",
-                                                    "and i look foward \nto that day.",
+                                                    "and I look foward \nto that day.",
                                                     "These meetings are\nexhausting."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "deb41740-f00d-4386-ada5-4358c9194efe"
                                         },
@@ -1994,7 +1971,7 @@
                                                     "to usurp the\nHeir's power."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "c6c2af5a-e8ef-4b9b-ab15-f8e156718b64"
                                         },
@@ -2015,7 +1992,7 @@
                                                     "Minowara like \nyourself."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "971fad43-45f9-4fac-aead-d61fc96a2285"
                                         },
@@ -2045,7 +2022,7 @@
                                                     "Lords Kiyama, \nSugiyama, Ohno and\nmine."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "6f87d23e-1d8c-4b60-acca-5d0fb55e307c"
                                         },
@@ -2070,7 +2047,7 @@
                                                     "traitor on such \nflimsy accusation \nis..."
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "f647209b-c7e1-4aa9-af59-328604ba4ed3"
                                         },
@@ -2081,7 +2058,7 @@
                                                     "Toranaga:\nTadayoshi sit \ndown!"
                                                 ],
                                                 "avatarId": "",
-                                                "__collapse": true
+                                                "__collapse": false
                                             },
                                             "id": "b0dff044-b2df-469d-9fbf-5d4c03ca8b79"
                                         },
@@ -2124,7 +2101,7 @@
                                                 "option8": "",
                                                 "cancelOnB": true,
                                                 "layout": "dialogue",
-                                                "__collapse": false
+                                                "__collapse": true
                                             },
                                             "id": "65e93285-bcfc-4f5a-9fb3-9bc8bb40b08f"
                                         },
@@ -2147,7 +2124,7 @@
                                                                 "you hearing such \ninsults."
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "b2b4bc57-f2b0-4b6f-9fd5-a119002e8ee7"
                                                     },
@@ -2168,7 +2145,7 @@
                                                         "args": {
                                                             "text": [
                                                                 "Tadayoshi:\nI ask permission \nto commit seppuku,",
-                                                                "i will end my \nfamily line and \nall who carry",
+                                                                "I will end my \nfamily line and \nall who carry",
                                                                 "my name."
                                                             ],
                                                             "avatarId": "",
@@ -2192,14 +2169,14 @@
                                                         "args": {
                                                             "text": [
                                                                 "Ishido:\nWhats's done is \ndone.",
-                                                                "Though i must say,\nthis childish \noutburst is",
+                                                                "Though I must say,\nthis childish \noutburst is",
                                                                 "typical of your \nclan, and an \ninsult to Taiko's ",
                                                                 "proud legacy.\nYou have seven \ndays to release ",
-                                                                "the Heir's mother \nfrom Edo,and then,\nwe will vote on",
+                                                                "the Heir's mother \nfrom Edo,and then\nwe will vote on",
                                                                 "your fate."
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "02ac4460-5ccb-431c-91c0-e711329e0c08"
                                                     },
@@ -2264,7 +2241,7 @@
                                                                             "these false \naccusations \nagainst my master!"
                                                                         ],
                                                                         "avatarId": "",
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "id": "ac3054c3-12cc-4faf-b0aa-489b36de9688"
                                                                 },
@@ -2276,7 +2253,7 @@
                                                                             "from you and your \nwarriors,kill him \nand his warriors!!"
                                                                         ],
                                                                         "avatarId": "",
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "id": "a64175f0-b9db-4ee3-8032-7f35b6eb3b54"
                                                                 },
@@ -2287,7 +2264,7 @@
                                                                             "...You died..."
                                                                         ],
                                                                         "avatarId": "",
-                                                                        "__collapse": true
+                                                                        "__collapse": false
                                                                     },
                                                                     "id": "bcf88b2e-ab66-4448-b4c3-1da5005f84e0"
                                                                 },
@@ -2340,7 +2317,7 @@
                                                                 "...You died..."
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "6d041409-9aab-435d-adb1-468d33b79625"
                                                     },
@@ -7322,73 +7299,6 @@
                         ]
                     },
                     "id": "1816b3a5-0a7a-47df-99d7-cbf9eab14cc6"
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": []
-        },
-        {
-            "name": "Logo",
-            "backgroundId": "afd017aa-00f1-4753-a58b-1b961d545526",
-            "width": 20,
-            "height": 18,
-            "type": "TOPDOWN",
-            "paletteIds": [],
-            "spritePaletteIds": [],
-            "collisions": [],
-            "autoFadeSpeed": 1,
-            "id": "ad6e7dac-84b9-4f8c-9d93-5c34ee2f9262",
-            "symbol": "scene_12",
-            "x": 772.6666717529297,
-            "y": 34,
-            "actors": [],
-            "triggers": [],
-            "script": [
-                {
-                    "command": "EVENT_ACTOR_DEACTIVATE",
-                    "args": {
-                        "actorId": "$self$",
-                        "__collapse": true
-                    },
-                    "id": "e09e136b-7bd4-427c-9ddc-ddc69a98d567"
-                },
-                {
-                    "command": "EVENT_OVERLAY_SHOW",
-                    "args": {
-                        "color": "black",
-                        "x": 0,
-                        "y": 0
-                    },
-                    "id": "e8628aa3-9702-4180-a20c-ad774dfe7dc1"
-                },
-                {
-                    "command": "EVENT_OVERLAY_MOVE_TO",
-                    "args": {
-                        "x": 0,
-                        "y": 18,
-                        "speed": 2
-                    },
-                    "id": "6b0fae01-09f0-4690-bc57-8047037d2702"
-                },
-                {
-                    "command": "EVENT_WAIT",
-                    "args": {
-                        "time": 2,
-                        "frames": 30
-                    },
-                    "id": "67015453-2556-4362-be61-5cbb91f8f2ab"
-                },
-                {
-                    "command": "EVENT_SWITCH_SCENE",
-                    "args": {
-                        "sceneId": "dc21844b-db79-416e-af13-31ae5b4e36c0",
-                        "x": 0,
-                        "y": 0,
-                        "direction": "",
-                        "fadeSpeed": "2"
-                    },
-                    "id": "1fe7a488-d0c7-4e0c-93bd-3cc3cda1ff8a"
                 }
             ],
             "playerHit1Script": [],
@@ -16060,16 +15970,6 @@
             "id": "17",
             "name": "gameOverMenu",
             "symbol": "var_gameovermenu"
-        },
-        {
-            "id": "18",
-            "name": "deathCheck",
-            "symbol": "var_deathcheck"
-        },
-        {
-            "id": "4c99edd4-fded-4ff0-9e95-6c133dbc6c32__L0",
-            "name": "imdead",
-            "symbol": "var_imdead"
         }
     ],
     "engineFieldValues": [
@@ -16089,8 +15989,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 146.6666717529297,
+        "worldScrollX": 202,
+        "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,

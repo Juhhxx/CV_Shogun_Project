@@ -1743,7 +1743,7 @@
                         "option8": "",
                         "cancelOnB": true,
                         "layout": "dialogue",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "7fc6b3e8-eee8-4c5b-a105-10dcd6d2b193"
                 },
@@ -1763,7 +1763,7 @@
                                 "args": {
                                     "text": [
                                         "Toranaga:\nIf my fellow \nregents are ",
-                                        "concerned, let me \nsay i am content \nas Lord of the ",
+                                        "concerned, let me \nsay I am content \nas Lord of the ",
                                         "Kantō. I won't\nbe the first to\nbreak the peace."
                                     ],
                                     "avatarId": "",
@@ -1813,7 +1813,7 @@
                                 "args": {
                                     "text": [
                                         "Toranaga:\nThis is a time of \npeace,Lord Ishido.",
-                                        "The lady is no \nmore hostage in my\ncastle than i am ",
+                                        "The lady is no \nmore hostage in my\ncastle than I am ",
                                         "here, in this one."
                                     ],
                                     "avatarId": "",
@@ -2294,7 +2294,7 @@
                                                                 "these false \naccusations \nagainst my master!"
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "b624c5d7-dd26-4334-bda5-e604e122c5ae"
                                                     },
@@ -2306,7 +2306,7 @@
                                                                 "from you and your \nwarriors,kill him \nand his warriors!!"
                                                             ],
                                                             "avatarId": "",
-                                                            "__collapse": true
+                                                            "__collapse": false
                                                         },
                                                         "id": "55404f8a-da3b-4362-80b7-e27e5c62b321"
                                                     },
@@ -15989,8 +15989,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 202,
-        "worldScrollY": 0,
+        "worldScrollX": 0,
+        "worldScrollY": 146.6666717529297,
         "zoom": 100,
         "customColorsEnabled": true,
         "sgbEnabled": false,
